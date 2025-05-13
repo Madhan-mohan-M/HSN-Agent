@@ -1,0 +1,8 @@
+[
+    {
+      "name": "@HSNCode",
+      "type": "regex",
+      "pattern": "\\b\\d{2,8}\\b"
+    }
+  ]
+  

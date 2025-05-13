@@ -1,0 +1,22 @@
+[
+    {
+      "name": "ValidateHSN",
+      "training_phrases": [
+        "Check HSN code {HSNCode}",
+        "Validate code {HSNCode}",
+        "Is {HSNCode} a valid HSN?",
+        "Check multiple codes {HSNCode}"
+      ],
+      "parameters": [
+        {
+          "name": "HSNCode",
+          "entity": "@HSNCode",
+          "required": true
+        }
+      ],
+      "fulfillment": {
+        "webhook": "http://localhost:5000/validate"
+      }
+    }
+  ]
+  
